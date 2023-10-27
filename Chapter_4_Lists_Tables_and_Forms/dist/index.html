@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4 in Html </title>
+</head>
+
+<body>
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contacts </li>
+        <li>Registration</li>
+    </ul>
+
+    <!-- ordered list  -->
+    <ol type="i">
+        <li>Ali</li>
+        <li>Kamal</li>
+        <li>Munawar</li>
+        <li>Raziq</li>
+        <li>Alam</li>
+    </ol>
+
+    <!-- tables  -->
+    <div>
+        <table>
+            <caption>The Result of Students </caption>
+            <thead>
+                <tr>
+                    <th>Reg No</th>
+                    <th>Student Name</th>
+                    <th>Marks</th>
+                    <th colspan="2">Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>148</td>
+                    <td>Munawar Johar</td>
+                    <td>49</td>
+                    <td>Pass</td>
+                    <td>Fail</td>
+                </tr>
+                <tr>
+                    <td>149</td>
+                    <td>Zulfi</td>
+                    <td>50</td>
+                    <td>Pass</td>
+                    <td>Fail</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div>
+
+        <h1>Registrate Now</h1>
+        <form action="form.php">
+
+            <input type="text" placeholder="Enter Your Name">
+            <label for="SectionIDA">
+                <input type="radio" value=" Section a" name="SectionIDA" id="SectionIDA">SectionA
+            </label>
+            <label for="SectionIDB">
+                <input type="radio" value=" Section a" name="SectionIDB" id="SectionIDB">SectionB
+            </label>
+            <input type="checkbox" name="card" id="food" class="red">
+            <label for="food"> Select the Food</label>
+            <br>
+            <textarea rows="10" cols="30" placeholder="Write about Your Self"></textarea>
+            <br>
+            <select name="Car">
+            Select Your Car 
+            <option value="car1">Marsides</option>
+            <option value="car2">Corowla</option>
+            <option value="suzuki">Suzuki</option>
+        </select>
+        </form>
+
+    </div>
+    <div>
+
+        <video src="video.mp4" controls autoplay width="350px"></video>
+
+    </div>
+</body>
+
+</html>
